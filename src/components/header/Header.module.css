@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  color: #0f0e17;
+  /* box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5); */
+  height: 5rem;
+}
+
+.nav h2 {
+  align-self: center;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  cursor: pointer;
+  margin: 0 1rem;
+}
