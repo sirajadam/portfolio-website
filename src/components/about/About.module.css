@@ -19,9 +19,11 @@
   height: 22rem;
 }
 
-.about-resume button {
+.about-resume a {
   cursor: pointer;
+  text-decoration: none;
   background-color: transparent;
+  color: #0f0e17;
   border: none;
   font-size: 1.25rem;
   font-weight: 600;
@@ -30,10 +32,11 @@
   border-radius: 0.5rem;
   margin: 0 auto;
   justify-content: center;
+
   display: flex;
 }
 
-.about-resume button i {
+.about-resume a i {
   margin-right: 6px;
   align-items: center;
 }

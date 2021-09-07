@@ -17,10 +17,10 @@ const About = () => {
         </div>
       </div>
       <div className={styles["about-resume"]}>
-        <button>
+        <a href={require("../../assets/dude.png").default} download="dude.png">
           <i class="fi-rr-cloud-download"></i>
           Download Resume
-        </button>
+        </a>
       </div>
     </section>
   );
