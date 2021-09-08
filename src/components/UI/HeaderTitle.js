@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./HeaderTitle.module.css";
 
-const HeaderTitle = () => {
+const HeaderTitle = (props) => {
   return (
     <div className={styles["section-header"]}>
       <div className={styles.divider}></div>
-      <h1 className={styles["section-title"]}>Projects</h1>
+      <h1 className={styles["section-title"]}>{props.title}</h1>
     </div>
   );
 };

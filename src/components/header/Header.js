@@ -5,8 +5,26 @@ const Header = () => {
     <nav className={styles.nav}>
       <h2>Adam Siraj</h2>
       <ul>
-        <li>GitHub</li>
-        <li>LinkedIn</li>
+        <li>
+          <a
+            href="https://www.github.com/sirajadam"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i class="uil uil-github"></i>
+            <span className={styles["nav-text"]}> GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/adam-s-39261b212/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i class="uil uil-linkedin"></i>
+            <span className={styles["nav-text"]}>LinkedIn</span>
+          </a>
+        </li>
       </ul>
     </nav>
   );

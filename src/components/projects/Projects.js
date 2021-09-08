@@ -8,7 +8,7 @@ import ProjectCard from "./ProjectCard";
 const Projects = (props) => {
   return (
     <section className={styles["project-section"]}>
-      <HeaderTitle />
+      <HeaderTitle title="Projects" />
       <div className={styles["projects-container"]}>
         {ProjectInfo.map((project) => (
           <ProjectCard key={project.id} projectInfo={project} />

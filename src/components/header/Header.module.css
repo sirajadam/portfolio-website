@@ -7,6 +7,8 @@
 
 .nav h2 {
   align-self: center;
+  color: #407bff;
+  font-size: 2.25rem;
 }
 
 .nav ul {
@@ -18,4 +20,23 @@
 .nav li {
   cursor: pointer;
   margin: 0 1rem;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+}
+
+.nav li a i {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 630px) {
+  .nav-text {
+    display: none;
+  }
+  .nav h2 {
+    font-size: 1.25rem;
+  }
 }
