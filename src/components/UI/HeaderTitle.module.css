@@ -1,3 +1,39 @@
-.title {
+.section-header {
+  display: block;
   font-size: 1.5rem;
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.divider {
+  height: 0.5rem;
+  width: 35%;
+  border-radius: 1rem;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    to right top,
+    #c43988,
+    #b23f96,
+    #9c46a2,
+    #824daa,
+    #6353af,
+    #495eb4,
+    #2c68b4,
+    #006fb1,
+    #007dad,
+    #2b89a5,
+    #50939e,
+    #709b9b
+  );
+}
+
+@media screen and (min-width: 720px) {
+  .divider {
+    margin: 0;
+  }
+
+  .section-header {
+    text-align: left;
+  }
 }

@@ -5,7 +5,7 @@ const About = () => {
     <section className={styles.about}>
       <div className={styles["about-container"]}>
         <div className={styles["about-info"]}>
-          Hello There, I'm Adam <br />I love learning about <br />
+          Hey, I'm Adam <br />I love learning about <br />
           Computer Science and Software Engineering
         </div>
         <div className={styles["about-photo"]}>

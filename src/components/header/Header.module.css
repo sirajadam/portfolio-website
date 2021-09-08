@@ -1,9 +1,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 0 2rem;
-  color: #0f0e17;
-  /* box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5); */
+  padding: 0 5%;
   height: 5rem;
 }
 

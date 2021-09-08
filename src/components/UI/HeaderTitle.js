@@ -3,9 +3,9 @@ import styles from "./HeaderTitle.module.css";
 
 const HeaderTitle = () => {
   return (
-    <div className={styles["title"]}>
-      <h1>Projects</h1>
-      <div></div>
+    <div className={styles["section-header"]}>
+      <div className={styles.divider}></div>
+      <h1 className={styles["section-title"]}>Projects</h1>
     </div>
   );
 };

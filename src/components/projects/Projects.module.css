@@ -1,0 +1,33 @@
+.project-section {
+  height: auto;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  column-gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 720px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .projects-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .projects-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
