@@ -7,10 +7,16 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  column-gap: 2rem;
 }
 
 .about-info {
   font-size: 1.75rem;
+  margin-right: 1rem;
+}
+
+.about-info span {
+  color: #00c9a7;
 }
 
 .about-photo-img {

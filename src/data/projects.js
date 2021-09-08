@@ -3,7 +3,7 @@ export const ProjectInfo = [
     id: 1,
     title: "Sorting Visualizer",
     about: "A website for visualizing different sorting algorithms",
-    tags: ["React", "JavaScript", "HTML", "CSS", "Go", "TypeScript"],
+    tags: ["React", "JavaScript", "HTML", "CSS"],
     demo: "https://github.com/sirajadam",
     github: "https://github.com/sirajadam",
     image:
