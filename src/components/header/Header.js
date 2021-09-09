@@ -10,6 +10,7 @@ const Header = () => {
             href="https://www.github.com/sirajadam"
             rel="noreferrer"
             target="_blank"
+            className={styles["nav-link"]}
           >
             <i class="uil uil-github"></i>
             <span className={styles["nav-text"]}> GitHub</span>
@@ -20,6 +21,7 @@ const Header = () => {
             href="https://www.linkedin.com/in/adam-s-39261b212/"
             rel="noreferrer"
             target="_blank"
+            className={styles["nav-link"]}
           >
             <i class="uil uil-linkedin"></i>
             <span className={styles["nav-text"]}>LinkedIn</span>
