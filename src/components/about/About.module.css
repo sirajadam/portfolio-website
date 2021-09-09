@@ -1,5 +1,6 @@
 .about {
   padding: 5% 5%;
+  height: calc(100vh - 5rem);
 }
 
 .about-container {
@@ -12,7 +13,6 @@
 
 .about-info {
   font-size: 1.75rem;
-  margin-right: 1rem;
 }
 
 .about-info span {
@@ -45,7 +45,7 @@
 }
 
 .about-resume {
-  margin-top: 2rem;
+  margin-top: 5rem;
   display: flex;
 }
 

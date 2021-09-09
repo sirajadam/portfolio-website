@@ -11,11 +11,11 @@ const About = () => {
       strings: [
         "Computer Science",
         "Go",
-        "Software Engineering",
-        "TypeScript",
         "Web Development",
+        "JavaScript",
         "React",
       ],
+      backDelay: 1000,
     });
   }, []);
   return (
