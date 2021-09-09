@@ -16,6 +16,8 @@
 }
 
 .project-img-container {
+  margin: 0;
+  padding: 0;
   top: 0;
   left: 0;
   height: 50%;
@@ -27,7 +29,7 @@
 .project-img-container img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
