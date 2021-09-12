@@ -34,7 +34,10 @@ const About = () => {
         </div>
       </div>
       <div className={styles["about-resume"]}>
-        <a href={require("../../assets/dude.png").default} download="dude.png">
+        <a
+          href={require("../../assets/CV.pdf").default}
+          download="Adam_Siraj_CV.pdf"
+        >
           <i class="fi-rr-cloud-download"></i>
           Download Resume
         </a>
